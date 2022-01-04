@@ -1,0 +1,6 @@
+@font-face{
+    font-family: MuseoSans700;
+    src: url("http://127.0.0.1:8000/asset/Fonts/Museo700-Regular.otf") format('opentype');
+    font-weight: normal;
+    font-style:normal;
+}
