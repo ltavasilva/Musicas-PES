@@ -31,6 +31,8 @@ Route::group(['middleware' => 'web'], function(){
     Auth::routes();
 
     Route::get('/home', [HomeController::class, 'index'])->name('home');
+    Route::get('/changePass', [HomeController::class, 'changePass'])->name('changePass');
+    Route::post('/doChangePass', [HomeController::class, 'doChangePass'])->name('doChangePass');
 });
 
 Route::get('/push-notificaiton', [WebNotificationController::class, 'index'])->name('push-notificaiton');
